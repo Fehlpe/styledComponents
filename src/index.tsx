@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Home from './pages/home/Home';
+import Recado from './pages/recado/recado';
+import AppRoutes from './routes/AppRoutes';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
-    <h1>toma</h1>
+    <AppRoutes></AppRoutes>
   </React.StrictMode>
 );
 
